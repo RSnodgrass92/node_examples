@@ -2,7 +2,7 @@ const rect = require("./rectangle")
 
 function solveRect (l,w)
 {
-    console.log(`Solving for rectangle with dimeonsions: ${l}, ${w}`);
+    console.log(`Solving for rectangle with dimensions: ${l}, ${w}`);
 
     rect(l,w, (err, rectangle)=>{
 
